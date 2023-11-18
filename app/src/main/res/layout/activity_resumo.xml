@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResumoActivity">
+
+    <TextView
+        android:id="@+id/totalEntradaTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="Total de entradas"
+        android:textSize="26sp"
+        android:textStyle="bold"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/valorEntradaTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="R$"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/totalEntradaTxt"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/valorEntradaTxt"
+
+        android:id="@+id/totalGastoTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="Total de Gastos"
+        android:textSize="26sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/totalGastoTxt"
+
+        android:id="@+id/valorGastoTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="R$"
+        android:textSize="26sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        />
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/valorGastoTxt"
+
+        android:id="@+id/totalDisponivelTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="Dinheiro Disponivel"
+        android:textSize="26sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/totalDisponivelTxt"
+
+        android:id="@+id/valorDisponivelTxt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="R$"
+        android:textSize="26sp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
